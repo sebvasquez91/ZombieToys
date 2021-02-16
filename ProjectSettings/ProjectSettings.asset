@@ -249,7 +249,7 @@ PlayerSettings:
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
-  clonedFromGUID: 82c5d8c1cde404fc58e7acc7b14b6fb5
+  clonedFromGUID: dc4cdb6f08a7d4cd0bc19cff401c9212
   templatePackageId: 
   templateDefaultScene: 
   AndroidTargetArchitectures: 5
@@ -632,8 +632,7 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    UNet: 1
+  cloudServicesEnabled: {}
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -655,7 +654,7 @@ PlayerSettings:
   apiCompatibilityLevel: 2
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: Zombie Toys Chapter 01-03
+  projectName: 
   organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
