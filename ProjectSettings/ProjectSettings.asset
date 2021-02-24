@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
-  productGUID: 1fe328a2b04534a4cbfef13a01ca5fa5
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -65,7 +65,7 @@ PlayerSettings:
   preserveFramebufferAlpha: 0
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
-  androidRenderOutsideSafeArea: 0
+  androidRenderOutsideSafeArea: 1
   androidUseSwappy: 0
   androidBlitType: 0
   defaultIsNativeResolution: 1
@@ -155,7 +155,7 @@ PlayerSettings:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 1
+  overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
@@ -239,10 +239,10 @@ PlayerSettings:
   useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 5
+  AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
+  AndroidKeystoreName: '{inproject}: '
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
@@ -300,6 +300,8 @@ PlayerSettings:
   - m_BuildTarget: PS4Player
     m_GraphicsJobs: 0
   - m_BuildTarget: iOSSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: PS5Player
     m_GraphicsJobs: 0
   - m_BuildTarget: WindowsStandaloneSupport
     m_GraphicsJobs: 0

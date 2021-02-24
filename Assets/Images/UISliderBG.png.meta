@@ -80,7 +80,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -99,7 +99,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ef7ae101a4ad4a5186e42eaf10f664d
+      spriteID: 22305410000000000800000000000000
       internalID: 21300002
       vertices: []
       indices: 
