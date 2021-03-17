@@ -21,8 +21,9 @@ public class GameManager : MonoBehaviour
 	[SerializeField] float delayOnPlayerDeath = 1f;	//How long to wait once the player has been defeated
 
 	[Header("UI Properties")]
-	[SerializeField] Text infoText;					//Text UI element to show info to the player (info may be instructions or the player's score)
-	[SerializeField] Text gameoverText;				//Text UI element informing the player that they have lost
+	[SerializeField] Text infoText;                 //Text UI element to show info to the player (info may be instructions or the player's score)
+	[SerializeField] Text gameoverText;             //Text UI element informing the player that they have lost
+	[SerializeField] GameObject instructionsText;   //Text UI element to show the game instructions
 
 	[Header("Player Selection Properties")]
 	[SerializeField] GameObject enemySpawners;		//The game object parent of all of the enemy spawners
@@ -57,8 +58,12 @@ public class GameManager : MonoBehaviour
 		if(infoText != null)
 			infoText.text = "Score: 0";
 
+		//If the instructions text UI element exists, disable it
+		if (instructionsText != null)
+			instructionsText.SetActive(false);
+
 		//If the enemy spawners game object exists, enable it
-		if(enemySpawners != null)
+		if (enemySpawners != null)
 			enemySpawners.SetActive (true);
 
 		//If the reference to the camera's animator exists, trigger the Start parameter
